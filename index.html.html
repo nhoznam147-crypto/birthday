@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Thiệp mừng sinh nhật Ba</title>
+  <style>
+    body {
+      background: #ffe6f0;
+      text-align: center;
+      font-family: 'Verdana', sans-serif;
+      overflow: hidden;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      color: #d63384;
+      font-size: 50px;
+      margin-top: 50px;
+    }
+    p {
+      font-size: 24px;
+      color: #333;
+    }
+    img {
+      width: 200px;
+      margin: 20px;
+    }
+    .balloon {
+      position: absolute;
+      bottom: -150px;
+      width: 80px;
+      animation: float 6s infinite;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-110vh); }
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Chúc mừng sinh nhật Ba 🎉</h1>
+  <p>Con yêu ba nhiều ❤️</p>
+  <img src="https://cdn-icons-png.flaticon.com/512/1998/1998592.png" alt="Bánh sinh nhật">
+  <img src="https://cdn-icons-png.flaticon.com/512/2017/2017924.png" alt="Quà tặng">
+
+  <!-- Bóng bay -->
+  <img src="https://cdn-icons-png.flaticon.com/512/4315/4315445.png" class="balloon" style="left:10%; animation-duration:5s;">
+  <img src="https://cdn-icons-png.flaticon.com/512/4315/4315445.png" class="balloon" style="left:50%; animation-duration:7s;">
+  <img src="https://cdn-icons-png.flaticon.com/512/4315/4315445.png" class="balloon" style="left:80%; animation-duration:6s;">
+</body>
+</html>
